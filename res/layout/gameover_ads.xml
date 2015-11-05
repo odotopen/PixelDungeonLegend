@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#7b7b7b"
+    >      
+    
+     <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        
+        android:textColor="#FFFFFF"
+        android:background="#7b7b7b" />
+    
+    <ImageView
+        android:id="@+id/gameover"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/game_over"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:layout_marginTop="60dp" />
+    
+    <ImageView
+        android:id="@+id/enter"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/enter_icon"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:layout_centerVertical="true" />
+    
+     <!-- <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView> -->
+
+</RelativeLayout>
